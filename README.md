@@ -120,13 +120,13 @@ WHERE
 ```
 **Objective:** Retrieve content added to Netflix in the last 5 years.
 
-### 7. Find All Movies/TV Shows by Director 'Bruno Garotti'
+### 7. Find All Movies/TV Shows by Director Bruno Garotti
 
 ```sql
 SELECT * FROM netflix
 WHERE director ILIKE '%Bruno Garotti%';
 ```
-**Objective:** List all content directed by 'Bruno Garotti'.
+**Objective:** List all content directed by Bruno Garotti.
 
 ### 8. List All TV Shows with More Than 5 Seasons
 
@@ -167,7 +167,7 @@ WHERE country = 'South Korea'
 GROUP BY 1;
 ```
 
-**Objective:** Calculate and rank years by the average number of content releases by India.
+**Objective:** Calculate and rank years by the average number of content releases by South Korea.
 
 ### 11. List All Movies that are Documentaries
 
@@ -187,7 +187,7 @@ WHERE
 ```
 **Objective:** List content that does not have a director.
 
-### 13. Find How Many Movies Actor 'Ryan Reynolds' Appeared in the Last 10 Years
+### 13. Find How Many Movies Actor Ryan Reynolds Appeared in the Last 10 Years
 
 ```sql
 SELECT * FROM netflix
@@ -197,7 +197,7 @@ WHERE
 	release_year > EXTRACT(YEAR FROM CURRENT_DATE) - 10;
 ```
 
-**Objective:** Count the number of movies featuring Ryan Reynolds' in the last 10 years.
+**Objective:** Count the number of movies featuring Ryan Reynolds in the last 10 years.
 
 ### 14. Find the Top 10 Actors Who Have Appeared in the Highest Number of Movies Produced in South Korea
 
